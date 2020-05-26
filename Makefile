@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = QrcCheck1.0.0
-DISTDIR = /home/ldg/QrcCheck/.tmp/QrcCheck1.0.0
+DISTDIR = /home/ldg/QtExample/QrcCheck/.tmp/QrcCheck1.0.0
 LINK          = g++
 LFLAGS        = -Wl,-O1 -Wl,-rpath,/opt/Qt/5.12.3/gcc_64/lib
 LIBS          = $(SUBLIBS) -L/opt/Qt/5.12.3/gcc_64/lib -lQt5Quick -lQt5Gui -lQt5Qml -lQt5Network -lQt5Core -lGL -lpthread   
@@ -237,7 +237,6 @@ DIST          = /opt/Qt/5.12.3/gcc_64/mkspecs/features/spec_pre.prf \
 		/opt/Qt/5.12.3/gcc_64/mkspecs/features/qt_config.prf \
 		/opt/Qt/5.12.3/gcc_64/mkspecs/linux-g++/qmake.conf \
 		/opt/Qt/5.12.3/gcc_64/mkspecs/features/spec_post.prf \
-		.qmake.stash \
 		/opt/Qt/5.12.3/gcc_64/mkspecs/features/exclusive_builds.prf \
 		/opt/Qt/5.12.3/gcc_64/mkspecs/features/toolchain.prf \
 		/opt/Qt/5.12.3/gcc_64/mkspecs/features/default_pre.prf \
@@ -450,7 +449,6 @@ Makefile: QrcCheck.pro /opt/Qt/5.12.3/gcc_64/mkspecs/linux-g++/qmake.conf /opt/Q
 		/opt/Qt/5.12.3/gcc_64/mkspecs/features/qt_config.prf \
 		/opt/Qt/5.12.3/gcc_64/mkspecs/linux-g++/qmake.conf \
 		/opt/Qt/5.12.3/gcc_64/mkspecs/features/spec_post.prf \
-		.qmake.stash \
 		/opt/Qt/5.12.3/gcc_64/mkspecs/features/exclusive_builds.prf \
 		/opt/Qt/5.12.3/gcc_64/mkspecs/features/toolchain.prf \
 		/opt/Qt/5.12.3/gcc_64/mkspecs/features/default_pre.prf \
@@ -658,7 +656,6 @@ Makefile: QrcCheck.pro /opt/Qt/5.12.3/gcc_64/mkspecs/linux-g++/qmake.conf /opt/Q
 /opt/Qt/5.12.3/gcc_64/mkspecs/features/qt_config.prf:
 /opt/Qt/5.12.3/gcc_64/mkspecs/linux-g++/qmake.conf:
 /opt/Qt/5.12.3/gcc_64/mkspecs/features/spec_post.prf:
-.qmake.stash:
 /opt/Qt/5.12.3/gcc_64/mkspecs/features/exclusive_builds.prf:
 /opt/Qt/5.12.3/gcc_64/mkspecs/features/toolchain.prf:
 /opt/Qt/5.12.3/gcc_64/mkspecs/features/default_pre.prf:
